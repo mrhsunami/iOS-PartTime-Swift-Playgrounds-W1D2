@@ -50,6 +50,12 @@ if someThing == otherThing {
 bicycleCount = 1
 
 
+if bicycleCount == 1 {
+    print("There is \(bicycleCount) bicycle")
+} else {
+    print("There are \(bicycleCount) bicycles")
+}
+
 
 
 //: ### Challenge 2
@@ -58,7 +64,15 @@ bicycleCount = 1
 
 bicycleCount = 0
 
-
+if bicycleCount == 1 {
+    print("There is \(bicycleCount) bicycle")
+}
+else if bicycleCount == 0 {
+    print("There are zero bicycles")
+}
+else {
+    print("There are \(bicycleCount) bicycles")
+}
 
 
 
@@ -68,7 +82,12 @@ bicycleCount = 0
 
 var inputString = "Do you like bicycles?"
 
-
+if inputString.hasSuffix("?") {
+    print("I think so!")
+}
+else {
+    print("You don't say!")
+}
 
 
 
